@@ -294,7 +294,7 @@ img {
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .team-info {
   padding-top: 30px;
@@ -308,8 +308,8 @@ img {
 }
 .net-link {
   display: flex;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   align-items: center;
   justify-content: center;
   background-color: var(--white-background-color);
@@ -328,6 +328,10 @@ img {
 .net-icon {
   fill: #afb1b8;
 }
+.net-item {
+  width: 44px;
+  height: 44px;
+}
 /* clients */
 .clients-list {
   display: flex;
@@ -335,13 +339,14 @@ img {
 }
 
 .clients-item {
+  height: 92px;
   width: calc((100% - 60px) / 6);
 }
 
 .clients-link {
   display: flex;
   width: 100%;
-  height: 92px;
+  height: 100%;
   align-items: center;
   justify-content: center;
   border: 1px solid #afb1b8;
@@ -412,6 +417,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.footer-net-item {
+  width: 44px;
+  height: 44px;
+}
 
 .footer-net-list {
   display: flex;
@@ -420,8 +429,8 @@ img {
 }
 .footer-net-link {
   display: flex;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
